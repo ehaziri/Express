@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello Flask</title>
+  </head>
+  <body>
+
+    <h3>Submitted info</h3>
+    <p>Name: <span class="right"><%= information.name %> </span></p>
+    <p>Dojo Location: <span class="right"><%= information.location %></span></p>
+    <p>Favorite Language: <span class="right"><%= information.language %></span></p>
+    <p>Comment: <span class="right"><%= information.comment %></span></p>
+    <form action='/' method="get">
+     <input type="submit" value="Go Back" class="right">
+    </form>
+  </body>
+</html>
